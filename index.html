@@ -1,0 +1,211 @@
+<!DOCTYPE html><html>
+<!-- Mirrored from data-sorcery.xyz/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Jan 2025 16:57:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Cyberoccultism is a modern day sect of chaos magick that chooses to explain magick and esoteric experiences through applying the hermetic principle of 'as above, so below' to the concepts of modern technology. Astral projection, artifacts and charging, communicating with spirits, aura reading, chaos magick, energy vampirism, past life memory recall, and more.">
+    <title>DATASORCERY</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&amp;dlinksisplay=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/clippy.css" media="all">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="js/interact.min.js"></script>
+    <script>
+    interact('.draggable')
+      .draggable({
+        inertia: true,
+        modifiers: [
+          interact.modifiers.restrictRect({
+            restriction: 'parent',
+            endOnly: true
+          })
+        ],
+
+        listeners: {
+          move: dragMoveListener,
+
+          end (event) {
+            var textEl = event.target.querySelector('p')
+
+            textEl && (textEl.textContent =
+              'moved a distance of ' +
+              (Math.sqrt(Math.pow(event.pageX - event.x0, 2) +
+                         Math.pow(event.pageY - event.y0, 2) | 0))
+                .toFixed(2) + 'px')
+          }
+        }
+      })
+
+    function dragMoveListener (event) {
+      var target = event.target
+      var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx
+      var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy
+
+      target.style.transform = 'translate(' + x + 'px, ' + y + 'px)'
+
+      target.setAttribute('data-x', x)
+      target.setAttribute('data-y', y)
+    }
+
+    window.dragMoveListener = dragMoveListener
+  </script>
+  </head>
+  <body onload="start()" style="width: 100%; background-color: black; background-image: url('images/loading.gif'); background-size: contain; background-repeat: no-repeat;  background-position: center; overflow: hidden; user-select: none;">
+  <p id="seoshit">Cyberoccultism is a modern day sect of chaos magick that chooses to explain magick and esoteric experiences through applying the hermetic principle of "as above, so below" to the concepts of modern technology--virtual reality as a vehicle to understand simulation theory, the astral plane as a sort of occult biodigital internet, magick as exploits in a complex self-projecting quantum simulation, and so forth. Astral projection, artifacts and charging, communicating with spirits, aura reading, chaos magick, energy vampirism, past life memory recall--those concepts and more are discussed here through the lens of my personal occult adventures and theory.</p>
+    <div style="text-align: center">
+      <div style="text-align: center">
+        <a href="https://pump.fun/profile/47YVHeHoDpA9tC4AH34P1SK8pzzzBYr9tfuwFmQcrrE6">Pumpfun&nbsp;</a><br>
+        <a href="https://pump.fun/profile/47YVHeHoDpA9tC4AH34P1SK8pzzzBYr9tfuwFmQcrrE6">Data&nbsp;</a><br>
+        <a href="https://pump.fun/profile/47YVHeHoDpA9tC4AH34P1SK8pzzzBYr9tfuwFmQcrrE6">Sorcery&nbsp;</a><br>
+      </div>      
+    <a>&nbsp;</a><br>
+    <a>&nbsp;</a><br>
+      <audio controls="" loop="" style="display: none;" id="bgm">
+        <source src="media/bgm.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio style="display: none;" id="sfx" type="audio/wav">
+        <source src="media/resurrection.wav" type="audio/wav">
+      </audio>
+    </div>
+<div id="fakeui" class="draggable" style="display: none;">
+  <div id="faketoolbar">�&nbsp;OPTIONS<img id="fakeminimize" onclick="optionsToggle();" src="images/maximize.png"></div>
+  <div id="fakewindow" style="text-align: center; display: none;">    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='turn on background music'" onclick="playerstart()" class="glow" href="#" id="prompt" style="display: none;">Turn BGM On</a>
+    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='turn background music off'" onclick="playerstop()" class="glow" href="#" id="unprompt" style="display: none;">Stop/Reset BGM</a><br>
+    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='turn sound effects on'" onclick="sfxstart()" class="glow" href="#" id="promptsfx" style="display: none;">Turn SFX On</a>
+    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='turn sound effects off'" onclick="sfxstop()" class="glow" href="#" id="unpromptsfx" style="display: none;">Turn SFX Off</a><br>
+    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='reset placement of draggable images'" onclick="reset()" class="glow" href="#" id="reset" style="display: none;">Reset Spirits</a><br>
+ <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='turn backgrounds off'" onclick="bgtoggle()" class="glow" href="#" id="bgtoggle" style="display: none;">Turn Backgrounds Off</a>
+ <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='turn backgrounds on'" onclick="bgtoggle()" class="glow" href="#" id="bgtoggle2" style="display: none;">Turn Backgrounds On</a>
+  </div>
+</div>
+        <div style="text-align: center; display: none" id="castleDIV"> <img src="images/cybercastle.gif" id="cybercastle" class="noscale"> </div>
+        <img src="images/Progetto_senza_titolo__1_-removebg-preview.png" id="cyberwizard" class="noscale" style="display: none">
+        <img src="images/cyberwizard2.gif" id="cyberwizard2" class="noscale" style="display: none">
+        <img src="images/welcomeskull.gif" id="welcomeskull" class="noscale" style="display: none">
+        <img src="images/reality2.gif" id="reality" class="noscale" style="display: none">
+    <noscript style="color: white; text-align: center; font-size: 10em;">THIS WEBSITE REQUIRES JAVASCRIPT AND IS UGLY AS FUCK ALL ON MOBILE.</noscript>
+    <img id="gill" class="noscale" onclick="killgill();" onmouseover="cyberoccultism();" onmouseout="getElementById('menu').innerHTML='>articles and features'" src="images/gill.gif" style="display: none">
+    <img class="draggable" src="images/firefox.gif" id="firefox" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='this site looks best in firefox, dawg!'" ondblclick="firefox()">
+    <img class="scanlines" src="images/scanlines.png" id="scanlines" style="display: none">
+    <img class="monitor draggable" src="images/monitor.gif" id="monitor" style="display: none" ondblclick="monitor()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: toggle scanlines'">
+    <img class="draggable" src="images/cyberfurby.gif" id="eastereggs" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'" ondblclick="cyberfurby()">
+    <img class="draggable" src="images/AOL.png" id="aol" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'" ondblclick="aolsong()">
+    <img class="draggable" src="images/cwa.png" id="cwa" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: astral spam'" ondblclick="cwasong()">
+    <img class="draggable noscale" src="images/aurelia.png" id="aurelia" onmouseout="getElementById('menu').innerHTML='>articles and features'; if (pinkCheck == false){getElementById('aurelia').src='images/aurelia.png';} else {getElementById('aurelia').src='images/aureliap.png';}" onmouseover="getElementById('menu').innerHTML='special: CYBEROCCULTISM ORIGINS: THE AURELIA SAGA'; if (pinkCheck == false) {getElementById('aurelia').src='images/portal.gif'} else {getElementById('aurelia').src='images/portalp.gif'};" ondblclick="aureliasong()">
+    <img class="draggable" src="images/tinyhomunculus.png" id="homunculus" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: homunculus'" ondblclick="homunculussong()">
+    <img class="draggable" src="images/clz5.gif" id="clz5" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'" ondblclick="spacesong()">
+    <img class="draggable" src="images/dance.gif" id="dance" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'" ondblclick="dancesong()">
+    <img class="draggable" src="images/weedwalk.gif" id="weed" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: weed'" ondblclick="weedsong()">
+    <img class="draggable" src="images/bongboy.gif" id="bongboy" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: digital artifact'" ondblclick="introsong()">
+    <img class="draggable" src="images/cybersuncoast.gif" id="suncoast" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: liminal spaces'" ondblclick="clockssong()">
+    <img class="draggable" src="images/cyberelectabuzz.gif" id="electabuzz" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: diamonds are forever'" ondblclick="electabuzz()">
+    <img class="draggable" src="images/cyberaol.gif" id="cyberaol" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: liminal spaces 2'" ondblclick="cyberaol()">
+    <img class="draggable" src="images/weedyang.gif" id="weedyang" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: stoner playlist'" ondblclick="stonerPlaylist();">
+    <img class="draggable" src="images/geoanime.gif" id="chaoslair" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: chaos lair'" ondblclick="chaosLair()">
+    <img class="draggable" src="images/hentai.gif" id="hentai" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: ;)'" ondblclick="hentai()">
+    <img class="draggable" src="images/cyberghost.gif" id="ghosts" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='special: the ghost archives'" ondblclick="ghosts()">
+    <img class="draggable" src="images/colorchange.gif" id="colorchangedoor" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: color shift'" ondblclick="pinkDoor()">
+    <img class="draggable" src="images/flyingheart.gif" id="flyingheart" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='special: memoriam'" ondblclick="flyingHeart()">
+    <img class="draggable" src="images/hits.gif" id="party" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='THANK YOU FOR 10K HITS! <3 bgm/bg change'" ondblclick="party()">
+    <img class="draggable" src="images/blog.gif" id="blog" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='blog'" ondblclick="blog()">
+    <img class="draggable" src="images/wallpapers.gif" id="wallpapers" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='wallpapers'" ondblclick="wallpapers()">
+    <img class="draggable" src="images/glossary.gif" id="glossary" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='glossary'" ondblclick="glossary()">
+<img class="draggable" src="images/updates.gif" id="updates" style="display: none;" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='changelog'" ondblclick="changelog()">
+<img class="draggable" src="images/incense.gif" id="incense" style="display: none;" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: incense'" ondblclick="incenseClick()">
+    <img class="draggable" src="images/keroro.gif" id="keroro" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm/bg change'" ondblclick="keroro()">
+    <img style="display: none" class="draggable" src="images/error.gif" id="error" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='404: easter egg not found'" ondblclick="error()">
+    <img style="display: none" class="draggable" src="images/aliendance.gif" id="aliendance" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'" ondblclick="aliendance()">
+    <img style="display: none" class="draggable" src="images/chibimiia.gif" id="miia" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm/cursor change'" ondblclick="miia()">
+    <img style="display: none" class="draggable" src="images/profile.gif" id="profile" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='about/faq'" href="#" ondblclick="sweetdreams()">
+<img class="apparition" id="apparition" style="display: none;" src="images/lumspin.gif">
+    <img style="display: none" class="draggable" src="images/weedcat.gif" id="weedcat" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg'" href="#" ondblclick="weedcatclick()">
+    <img style="display: none" class="draggable" src="images/catchphrase.gif" id="catchphrase" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'" href="#" ondblclick="catchphraseclick()">
+    <div style="text-align: center; margin: auto;">
+    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='about/faq'" onclick="sweetdreams();"><h1 id="title" class="glow"></h1><h2 style="display: none" class="glow" id="online">.xyz</h2></a></div>
+<img style="display: none" src="images/Skeleton9.gif" id="creepy" class="noscale" onmousedown="spiderclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/ship1.gif" id="ship1" class="noscale" onmousedown="ufosclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/ship2.gif" id="ship2" class="noscale" onmousedown="ufosclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/ship3.gif" id="ship3" class="noscale" onmousedown="ufosclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/bart2.gif" id="bart" class="noscale" onmousedown="bartclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/godzilla.gif" id="godzilla" class="noscale" onmousedown="godzillaclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/cd.gif" id="cd" class="noscale" onmousedown="cdclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/pikachu.gif" id="pikachu" class="noscale" onmousedown="pikachuclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/athena.gif" id="athena" class="noscale" onmousedown="athenaclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/karoo.gif" id="karoo" class="noscale" onmousedown="karooclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/luffy.gif" id="luffy" class="noscale draggable" ondblclick="luffyclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/zoro.gif" id="zoro" class="noscale draggable" ondblclick="zoroclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/arlong.gif" id="arlong" class="noscale draggable" ondblclick="arlongclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/usopp.gif" id="usopp" class="noscale draggable" ondblclick="usoppclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/shanks.gif" id="shanks" class="noscale draggable" ondblclick="shanksclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/smoker.gif" id="smoker" class="noscale draggable" ondblclick="smokerclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/sanji.gif" id="sanji" class="noscale draggable" ondblclick="sanjiclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/tashigi.gif" id="tashigi" class="noscale draggable" ondblclick="tashigiclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/choppermonster.gif" id="choppermonster" class="noscale draggable" ondblclick="choppermonsterclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/kuro.gif" id="kuro" class="noscale draggable" ondblclick="kuroclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/vivi.gif" id="vivi" class="noscale draggable" ondblclick="viviclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/karoo2.gif" id="karoo2" class="noscale draggable" ondblclick="karoo2click()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/kaya.gif" id="kaya" class="noscale draggable" ondblclick="kayaclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/nami.gif" id="nami" class="noscale draggable" ondblclick="namiclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/crocodile.gif" id="crocodile" class="noscale draggable" ondblclick="crocodileclick()" onmouseounet="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/dio.gif" id="dio" class="noscale draggable" ondblclick="dioclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/shadowdio.gif" id="shadowdio" class="noscale draggable" ondblclick="gravity()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: gravity'">
+<img style="display: none" src="images/ouija.gif" id="ouija" class="noscale draggable" ondblclick="ouija()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='special: ouija transcript - vera'">
+<img style="display: none" src="images/jotaro.gif" id="jotaro" class="noscale draggable" ondblclick="jotaroclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/evo.gif" id="evo" class="noscale" onmousedown="vroomclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='ANOMALY SPOTTED! ANOMALY SPOTTED!'">
+<img style="display: none" src="images/mustang2.gif" id="drift4" class="noscale draggable" ondblclick="drift4click()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/drift.gif" id="drift" class="noscale draggable" ondblclick="driftclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/sti.gif" id="drift2" class="noscale draggable" ondblclick="drift2click()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/wrx.gif" id="drift3" class="noscale draggable" ondblclick="drift3click()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='easter egg: bgm change'">
+<img style="display: none" src="images/email.gif" id="links" class="noscale draggable" ondblclick="linksclick()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='email me'">
+<img style="display: none" src="images/links.gif" id="links2" class="noscale draggable" ondblclick="links2click()" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='links'">
+<img src="images/credits.gif" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='credits'" ondblclick="starlight()" class="draggable" style="display: none;" id="credits">
+<img src="images/web420.gif" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='???'" ondblclick="web420()" class="draggable" style="display: none;" id="web420">
+
+    <input id="input" value="cheatcode" class="glow" style="display: none;" onfocus="if(this.value == 'cheatcode'){this.value = ''};" onblur="if(this.value == ''){this.value = 'cheatcode'};">
+<br><br><br>
+<div style="text-align: center;">
+    <p>Performing sorcery...</p> <!-- Added line of text -->
+    <h2 class="glow" id="welcome1" style="display: none">this digital temple utilizes sound effects and background music. <br> would you like to enable audio (can be changed later)? <br><br> <a style="display: none" id="welcome2" src="#" onclick="welcome1();">&gt;yes</a><br><a style="display: none" id="welcome3" src="#" onclick="welcome2();">&gt;no</a></h2>
+    <h2 id="menu" class="glow" style="display: none; z-index: 2; position: relative;">&gt;articles and features</h2><br>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: lucid dream or dream invasion?'" onclick="invasionsong()" href="/invasion.html" id="article1" style="display: none" target="_blank" rel="noopener noreferrer">[a1]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: artifacts / charging'" onclick="artifactsong()" href="/charging.html" id="article2" style="display: none" target="_blank" rel="noopener noreferrer">[a2]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: astral vs astral'" onclick="astralsong()" href="/astralvsastral.html" id="article3" style="display: none" target="_blank" rel="noopener noreferrer">[a3]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: energy vampirism/draining'" onclick="draining()" href="/draining.html" id="article7" style="display: none" target="_blank" rel="noopener noreferrer">[a4]</a>    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: friendly liminal creatures and artifact hunting'" onclick="friendly()" href="/friendlyliminal.html" id="article8" style="display: none" target="_blank" rel="noopener noreferrer">[a5]</a><a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='article: gravity'" onclick="gravity()" id="article9" style="display: none" target="_blank" rel="noopener noreferrer">[a6]</a>
+<br>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: astral pop-up ads'" onclick="cwasong()" id="oddity1" style="display: none" target="_blank" rel="noopener noreferrer">[o1]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: local spirits and the entity'" onclick="entitysong()" href="/entity.html" id="oddity2" style="display: none" target="_blank" rel="noopener noreferrer">[o2]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: homunculus'" onclick="homunculussong()" id="oddity3" style="display: none" target="_blank" rel="noopener noreferrer">[o3]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: the hexed bag'" href="/hexedbag.html" onclick="blackhole()" target="_blank" rel="noopener noreferrer" id="oddity4" style="display: none">[o4]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: homunculus part 2: the element of fire'" onclick="homunculus2()" id="article5" style="display: none">[o5]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='oddity: another shared-mindspace-invasion entity'" href="#" onclick="smsinvasion()" id="article6" style="display: none">[o6]</a> 
+<br>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='special: the ghost archives'" onclick="ghostsong()" href="/ghosts.html" id="special" style="display: none" target="_blank" rel="noopener noreferrer">[s1]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='special: CYBEROCCULTISM origins: The Aurelia Saga'" onclick="aureliasong()" id="article4" style="display: none" target="_blank" rel="noopener noreferrer">[s2]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='special: ouija transcript - vera'" onclick="ouija()" id="special3" style="display: none" target="_blank" rel="noopener noreferrer">[s3]</a>
+    <a class="glow selectme" onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='coming soon'" href="#" onclick="soonerorlater()" id="comingsoon" style="display: none">[...]</a>
+    </div>
+    <div style="text-align: center;">
+    <a onmouseout="getElementById('menu').innerHTML='>articles and features'" onmouseover="getElementById('menu').innerHTML='changelog'" onclick="changelog()" href="#" class="glow" style="display: none;" id="minutia">last updated 9/8/23 (click for changelog)</a>
+     <br><p id="hits" class="glow" style="display: none;">total visitors to the temple of chaos: <span id="hitcount" style="display: none;"><img src="images/c6.gif"><img src="images/c8.gif"><img src="images/c4.gif"><img src="images/c6.gif"><img src="images/c2.gif"></span></p> <!-- last added 762 to hit counter on 3/13/23 (11/29 still at 0 for next time reference). yes i'm doing it manually because i don't have an api to query on this host now, fuck you -->
+    <br>
+    </div>
+
+    <!-- Social media icons -->
+    <div class="social-icons">
+      <a href="https://x.com/data_sorcery" target="_blank">Twitter</a>
+      <a href="https://t.me/+Y4pBQVg_15I2YjU8" target="_blank">Telegram</a>      
+  </div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/clippy.js"></script>
+<script src="js/script.js"></script>
+
+  
+
+</body>
+<!-- Mirrored from data-sorcery.xyz/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Jan 2025 16:57:50 GMT -->
+</html>

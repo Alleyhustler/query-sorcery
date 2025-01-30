@@ -1,0 +1,1052 @@
+html {
+  cursor: url(../alien.cur), auto;
+}
+
+body {
+  background-color: black;
+  color: #33FF33;
+  font-family: 'VT323', monospace;
+  margin: auto;
+  cursor: url(../alien.cur), auto;
+  height: 969px;
+  width: 1080px;
+    }
+
+.miia {
+   cursor: url(../miia.cur), auto; 
+}
+
+ol {
+ font-size: 30px; 
+}
+
+ul {
+ font-size: 30px; 
+}
+
+li {
+ font-size: 30px; 
+}
+
+p {
+ font-size: 36px; 
+ font-family: 'VT323', monospace;
+ z-index: 1;
+}
+
+p a{
+ text-decoration: underline; 
+}
+
+area {
+  cursor: url(../420.cur), auto; 
+}
+
+map {
+   cursor: url(../420.cur), auto;  
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 32px;  
+  z-index: 1;
+}
+
+h2 {
+ font-size: 45px; 
+ z-index: 1;
+}
+
+h3 {
+ font-size: 50px;
+ letter-spacing: -27px;
+ display: none;
+ z-index: 1;
+}
+
+a {
+  text-decoration: none; 
+  color: #33FF33;
+  font-size: 35px;
+  cursor: url(../420.cur), auto; 
+  }
+
+img {
+  z-index: 0;
+}
+
+a:hover {
+ color: white; 
+}
+
+.glow {
+   color: #33FF33;
+   animation: glow .013s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #33FF33, 1px 1px 5px #000000;
+  }
+  
+  to {
+    text-shadow: 0 0 8px #33FF44, 1px 1px 8px #000000;
+  }
+}
+
+.glow2 {
+   color: #FF33FF;
+   animation: glow2 .013s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow2 {
+  from {
+    text-shadow: 0 0 5px #FF33FF, 1px 1px 5px #000000;
+  }
+  
+  to {
+    text-shadow: 0 0 8px #FF33EE, 1px 1px 8px #000000;
+  }
+}
+
+#prompt {
+ position: relative;
+ z-index: 5;
+}
+
+#unprompt {
+ position: relative;
+ z-index: 5;
+}
+
+#promptsfx {
+ position: relative;
+ z-index: 5;
+}
+
+#unpromptsfx {
+ position: relative;
+ z-index: 5;
+}
+
+#reset {
+ position: relative;
+ z-index: 5;
+}
+
+#titleContainer
+{
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+
+oddity1 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+oddity2 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+oddity3 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+oddity4 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+oddity5 {
+width: 340px; 
+height: 239px;
+position: relative;
+  z-index: 1;
+
+}
+
+article1 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+article2 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+article3 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+article4 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+article5 {
+width: 340px; 
+height: 239px;
+position: absolute;
+  z-index: 1;
+
+}
+
+#title {
+  font-size: 121px;
+    z-index: 2;
+}
+
+#menu {
+  text-align: center;
+  font-size: 78px;
+  margin: 0;
+    z-index: 2;
+
+}
+
+#menu2 {
+  text-align: center;
+  font-size: 78px;
+  margin: 0;
+    z-index: 2;
+}
+
+#minutia {
+  font-size: 24px;
+  z-index: 1;
+
+}
+
+#credits {
+  z-index: 1;
+  position: absolute;
+  top: 90%;
+  left: 8%;
+}
+
+#aol {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  z-index: 0;
+  display: none;
+}
+
+#cwa {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 5;
+  display: none;
+}
+
+#aurelia {
+  position: absolute;
+  top: 65%;
+  left: 90%;
+  z-index: 0;
+  display: none;
+}
+
+#weedyang {
+  position: absolute;
+  top: 42%;
+  left: 93%;
+  z-index: 0;
+  display: none;
+}
+
+#clz5 {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  z-index: 0;
+  display: none;
+}
+
+#dance {
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  z-index: 0;
+  display: none;
+}
+
+#homunculus {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  z-index: 0;
+  display: none;
+}
+
+#weed {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  z-index: 0;
+  display: none;
+}
+
+#bongboy {
+  position: absolute;
+  top: 0%;
+  left: 61%;
+  z-index: 0;
+  display: none;
+}
+
+#suncoast {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  z-index: 5;
+  display: none;
+}
+
+#cyberaol {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  z-index: 0;
+  display: none;
+}
+
+#electabuzz {
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  z-index: 0;
+  display: none;
+}
+
+#symbol {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  z-index: 0;
+  display: none;
+}
+
+#chaoslair {
+  position: absolute;
+  top: 95%;
+  left: 1%;
+  z-index: 0;
+  display: none;
+}
+
+#eastereggs {
+  position: absolute;
+  top: 73%;
+  left: 19%;
+  z-index: 1;
+  display: none;
+}
+
+#sectiontitle1 {
+  text-align: center;
+  font-size: 121px;
+  z-index: 1;
+
+}
+
+#nohide {
+ display: inline-block; 
+}
+
+#gill {
+ position: absolute;
+ top: 74%;
+ left: 45%;
+  z-index: 0;
+  }
+
+#hentai {
+  position: absolute;
+  top: 70%;
+  left: 77%;
+  z-index: 0;
+  display: none;
+
+}
+
+#ghosts {
+  position: absolute;
+  top: 18%;
+  left: 82%;
+  z-index: 0;
+  display: none;
+}
+
+#cybercastle {
+position: absolute;
+top: 62%;
+left: 43%; 
+  z-index: -1;
+}
+
+#cyberwizard{
+position: absolute;
+top: 1%;
+left: 0%; 
+z-index: -1;
+}
+
+#cyberwizard2 {
+position: absolute;
+top: 1%;
+left: 86%; 
+z-index: -1;
+}
+
+#colorchangedoor{
+position: absolute;
+top: 41%;
+left: 48%;
+z-index: 0;
+display: none;
+}
+
+#flyingheart{
+position: absolute;
+top: 12%;
+left: 4%;
+z-index: 0;
+display: none; 
+}
+
+#welcomeskull{
+z-index: -100;
+position: absolute;
+top: 7%;
+left: 46%; 
+}
+
+#hits
+{
+ vertical-align: top;
+ font-size: 16pt;
+ z-index: 2;
+}
+
+#hitcount{
+ vertical-align: top;
+}
+
+#firefox{
+position: absolute;
+top: 0%;
+left: 93%;
+z-index: 2;
+display: none; 
+}
+
+#party{
+position: absolute;
+top: 1%;
+left: 1%;
+z-index: 2;
+display: none; 
+}
+
+#introgif {
+ width: 1920px; 
+}
+
+#reality {
+  position: absolute;
+  top: 34%;
+  left: 37.5%;
+  z-index: 0;
+}
+
+#error {
+display: block;
+position: absolute;
+left: 83%;
+top: 41%; 
+}
+
+#keroro{
+position: absolute;
+top: 24%;
+left: 32.3%;
+z-index: 0;
+display: none; 
+}
+
+#aliendance {
+position: absolute;
+top: 9.7%;
+left: 25%;
+z-index: 2;
+display: none; 
+}
+
+#miia {
+position: absolute;
+top: 45%;
+left: 2%;
+z-index: 0;
+display: none; 
+}
+
+.creepy {
+  z-index: 15;
+  display: block;
+  position: absolute;
+  animation-name: spooky;
+  animation-duration: 7s;
+}
+
+@keyframes spooky {
+  0%   {left:-200px; top:500px;}
+  10%  {left:200px; top:100px;}
+  20%  {left:500; top:300px;}
+  30%  {left:700px; top:150px;}
+  50% {left:1000px; top:400px;}
+  60% {left:1200; top:100px;}
+  70% {left:1400px; top:300;}
+  80% {left:1600px; top:175px;}
+  90% {left:1700px; top:400px;}
+  100% {left:2000px; top:200px;}
+}
+
+.ship1 {
+  z-index: 15;
+  display: block;
+  position: absolute;
+  animation-name: ship1ani;
+  animation-duration: 10s;
+}
+
+@keyframes ship1ani {
+  0%   {left:-10px; top:900px;}
+  25%  {left:428px; top:420px;}
+  50%  {left:1787px; top:372px;}
+  75%  {left:1400px; top:150px;}
+  100% {left:2000px; top:0px;}
+}
+
+.ship2 {
+  z-index: 14;
+  display: block;
+  position: absolute;
+  animation-name: ship2ani;
+  animation-duration: 8s;
+}
+
+@keyframes ship2ani {
+  0%   {left:-85px; top:653px;}
+  20%  {left:422px; top:404px;}
+  40%  {left:605px; top:207px;}
+  60%  {left:1077px; top:69px;}
+  80%  {left:820px; top:420px;}
+  100% {left:2000px; top:900px;}
+}
+
+.ship3 {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: ship3ani;
+  animation-duration: 12s;
+}
+
+@keyframes ship3ani {
+  0%   {left:-10px; top:100px;}
+  25%  {left:289px; top:777px;}
+  50%  {left:647px; top:658px;}
+  75%  {left:1400px; top:350px;}
+  100% {left:2000px; top:1200px;}
+}
+
+.bart {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: bartani;
+  animation-duration: 12s;
+}
+
+@keyframes bartani {
+  0%   {left:-100px; top:800px;}
+  100% {left:2500px; top:800px;}
+}
+
+.godzilla {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: godzillaani;
+  animation-duration: 15s;
+}
+
+@keyframes godzillaani {
+  0%   {left:2500px; top:800px;}
+  100% {left:-1000px; top:0px;}
+}
+
+.cd {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: cdani;
+  animation-duration: 20s;
+}
+
+@keyframes cdani {
+  0% {left: 2000px; top:420px;}
+  100%   {left:-1000px; top:777px;}
+}
+
+.pikachu {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: pikachu;
+  animation-duration: 35s;
+}
+
+@keyframes pikachu {
+  0% {left: 2000px; top:-100px;}
+  100%   {left:-2200px; top:2000px;}
+}
+
+.athena {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: athenaani;
+  animation-duration: 15s;
+}
+
+@keyframes athenaani {
+  0% {left: -200px; top:600px;}
+  100%   {left:2800px; top:600px;}
+}
+
+.karoo {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: karooani;
+  animation-duration: 20s;
+}
+
+@keyframes karooani {
+  0% {left: 2000px; top:870px;}
+  100%   {left:-1000px; top:870px;}
+}
+
+#profile {
+  display: block;
+  position: absolute;
+  left: 84%;
+  top: 90%;
+}
+
+#luffy {
+position: absolute;
+top: 45%;
+left: 66%;
+z-index: 2;
+}
+
+#zoro {
+position: absolute;
+top: 21%;
+left: 84%; 
+z-index: 2;
+}
+
+#arlong {
+position: absolute;
+top: 38%;
+left: 7.5%;
+z-index: 4;
+}
+
+#kaya {
+  position: absolute;
+  top: 0%;
+  left: 18%; 
+  z-index: 2;
+}
+
+#usopp {
+position: absolute;
+top: 0;
+left: 14%;  
+z-index: 2;
+}
+  
+#shanks {
+  position: absolute;
+  top: 63.3%;
+  left: 80%;
+  z-index: 2;
+}
+
+#tashigi {
+position: absolute;
+top: 34.5%;
+left: 88%; 
+z-index: 2;
+}
+
+#smoker {
+position: absolute;
+top: 34.4%;
+left: 83%; 
+z-index: 2;
+}
+
+#choppermonster {
+position: absolute;
+top: 87.5%;
+left: 87%;
+z-index: 2;
+  }
+  
+#kuro {
+position: absolute;
+top: 0.5%;
+left: 75%;
+z-index: 4;
+  }
+  
+#sanji {
+position: absolute;
+top: 52.9%;
+left: 0%;
+z-index: 2; 
+}
+
+#nami {
+position: absolute;
+top: 39.9%;
+left: 4%;
+z-index: 2; 
+}
+
+#vivi {
+position: absolute;
+top: 58.5%;
+left: 96%;
+z-index: 2;
+  }
+  
+#karoo2 {
+position: absolute;
+top: 66%;
+left: 77%;
+z-index: 2;
+}
+
+#crocodile {
+position: absolute;
+top: 24%;
+left: 57.5%; 
+z-index: 2;
+}
+
+#dio {
+position: absolute;
+top: 65%;
+left: 20.5%;
+z-index: 2;
+  }
+  
+#jotaro {
+position: absolute;
+top: 83%;
+left: 2%;
+z-index: 3; 
+}
+
+#scanlines {
+  width: 1920px;
+  height: 1080px;
+  pointer-events: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  opacity: 0.25;
+}
+
+#apparition {
+  width: 1920px;
+  height: 1080px;
+  pointer-events: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  opacity: 0.15;
+}
+
+#monitor {
+ position: absolute;
+top: 10%;
+left: 86%; 
+}
+
+#input {
+position: absolute;
+top: 97%;
+left: 92%;
+background-color: black;
+}
+
+#web420 {
+position: absolute;
+top: 20%;
+left: 60%;
+z-index: 2; 
+}
+
+#online {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+}
+
+#bgtoggle{
+position: relative;
+z-index: 5; 
+}
+
+#bgtoggle2{
+position: relative;
+z-index: 5;  
+}
+
+#drift {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+
+#drift2 {
+position: absolute;
+top: 51%;
+left: 84%; 
+}
+
+
+#drift3 {
+position: absolute;
+left: 24%;
+top: 63%; 
+}
+
+#drift4 {
+position: absolute;
+top: 16%;
+left: 71%;
+}
+
+#jotaro {
+position: absolute;
+top: 83.5%;
+left: 2.5% 
+}
+
+#dio {
+  position: absolute;
+  top: 20%;
+  left: 48.5%;
+  z-index: 1;
+}
+
+.drift {
+  z-index: 13;
+  display: block;
+  position: absolute;
+  animation-name: driftani;
+  animation-duration: 15s;
+}
+
+@keyframes driftani {
+  0% {left: 2000px; top:800px;}
+  100%   {left:-1500px; top:800px;}
+}
+
+#fakeui{
+position: absolute;
+display: block;
+z-index: 100;
+top: 1%;
+left: 43%;
+}
+
+#faketoolbar{
+ width: 298px;
+ height: 48px;
+ background-color: black;
+ border: 2px solid #33ff33;
+ position: relative;
+ font-size: 24px;
+}
+
+#fakewindow{
+ width: 298px;
+ height: 180px;
+ background-color: black;
+ border-bottom: 2px solid #33ff33;
+ border-left: 2px solid #33ff33;
+ border-right: 2px solid #33ff33;
+ position: relative;
+}
+
+#fakeminimize{
+  position: relative;
+  top: 10%;
+  left: 60%;
+}
+
+#invisibleandplacement{
+ position: absolute;
+ height: 300px;
+}
+
+#blog {
+ position: absolute;
+ display: none;
+  left: 67%;
+  top: 80%; 
+}
+
+#glossary {
+display: none;
+position: absolute;
+left: 29%;
+top: 50%;
+}
+
+.selectme {
+ font-size: 26pt; 
+}
+
+#seoshit {
+ display: none; 
+}
+
+#links{
+ position: absolute;
+ left: 59%;
+ top: 44%; 
+}
+
+#wallpapers{
+ position: absolute;
+ display: none;
+ top: 50%;
+ left: 66%; 
+}
+
+#catchphrase{
+  position: absolute;
+  top: 33%;
+  left: 40%;
+  width: 20%;
+}
+
+#weedcat{
+ position: absolute;
+ top: 4%;
+ left: 30%; 
+}
+
+#ouija{
+ position: absolute;
+ left: 41%;
+ top: 49%;
+}
+
+#shadowdio {
+ position: absolute;
+ top: 17%;
+ left: 41.777%; 
+}
+
+#updates {
+ position: absolute;
+ top: 89%;
+ left: 61%;   
+}
+
+#incense{
+	position: absolute;
+	top: 68.3%;
+	left: 69%;
+	z-index: 2;
+}
+
+.mobile{
+    width: auto;
+}
+
+#links2{
+position: absolute;
+top: 3.4%;
+left: 22%;
+z-index: 2;   
+}
+
+
+/* Social media icons */
+.social-icons {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
